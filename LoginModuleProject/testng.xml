@@ -1,0 +1,14 @@
+
+<suite name="Login Suite">
+
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+
+    <test name="Login Module Test">
+        <classes>
+            <class name="tests.LoginModuleTest"/>
+        </classes>
+    </test>
+
+</suite>
